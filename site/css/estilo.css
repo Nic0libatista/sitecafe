@@ -1,0 +1,278 @@
+.topo{
+    display: flex;
+    max-width: 1500px; /*Largura máxima 1500 */
+    width: 100%; /*abaixo de 1500, preenche a tela inteira */
+    margin: 0 auto; 
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Logo */
+.topo h1{
+    /* transformar o h1 em imagem*/
+    width: 200px;
+    height: 100px;
+    background-image: url(../assets/logo.png);
+    margin: 10px 0;
+    text-indent: -9999px; /*manda o texto para longe*/
+}
+ /* Menu */
+.menu ul{
+    display: flex;
+}
+
+.menu ul li a{
+    font-size: 25px;
+    color: #333;
+    text-decoration: none;
+    margin-left: 40px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.menu ul li a:hover{
+    color: #ccc;
+    text-decoration: underline;
+}
+
+/* Rede social*/
+.topo ul{
+    display: flex;
+}
+
+
+
+
+
+/* BEM VINDO A CASA DO BARISTA */
+
+
+.bem-vindo{
+    max-width: 1500px;
+    padding: 50px 0;
+    margin: 0 auto;
+}
+
+.bem-vindo h3{
+    font-size: 40px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+}
+
+.bem-vindo h2{
+    font-size: 50px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+}
+
+.bem-vindo header p{
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+}
+
+.bem-vindo div{
+    display: flex;
+    text-align: center;
+    margin-top: 50px;
+    justify-content: space-around;
+}
+
+.bem-vindo article{
+    background-color: #333;
+    width: 400px;
+    height: 350px;
+}
+
+.bem-vindo h5,
+.bem-vindo h4{
+    color:  #ccc;
+    font-size: 40px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.bem-vindo h5{
+    font-size: 20px;
+    margin: 25px 0;
+}
+
+.bem-vindo div img{
+    margin:  25px 0;
+}
+
+.bem-vindo div p{
+    color: #fff;
+    font-size: 25px;
+    padding: 0 10px;
+}
+
+
+
+/*            DESTAQUE            */
+
+.destaque header{
+    display: flex;
+    background: url(../assets/cafe-parallax.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    height: 300px;
+}
+
+.destaque h3{
+    text-align: center;
+    font-size: 50px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.destaque h2{
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.destaque h5{
+    margin-top: 20px;
+    color: #fff;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+.destaque h4{
+    margin: 10px;
+    color: #fff;
+    font-size: 25px;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+}
+
+.destaque p{
+    color: #fff;
+    font-family: 20px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.destaque div{
+    margin-top: 50px;
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+}
+
+.destaque article{
+    background-color: #333;
+    width: 420px;
+    height: 500px;
+}
+
+.destaque article img{
+    margin-top: 20px;
+}
+
+
+/*            Cardapio   */
+
+.cardapio{
+    margin-top: 50px;
+}
+
+
+.cardapio header{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    height: 300px;
+    margin: 50px 0;
+    background: url(../assets/cafe-parallax.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+   
+   
+}
+
+                                                                                                                                                                         
+.cardapio h3{
+    text-align: center;                                           
+    font-size: 50px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.cardapio h2{
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+
+.card-cardapio article{
+    flex-wrap: wrap;
+    background-color: #333;
+    width: 480px;
+    height: 240px; 
+    color: white;
+}
+
+.card-cardapio article img{
+    margin: 10px;
+}
+.card-cardapio{
+    max-width: 1500px;
+    margin: 0 auto;
+    justify-content: space-around;
+    justify-content: center;
+    display: flex ;
+    flex-wrap: wrap; 
+    gap: 50px 30px;
+}
+
+.card-cardapio .nome-valor{
+    display: flex;
+    justify-content: space-between;
+}
+
+.card-cardapio div h4{
+    font-size: 30px;
+    margin: 0 10px;
+}
+
+.card-cardapio div p{
+    font-size: 25px;
+    margin-left: 10px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.btn-veja-mais{
+    max-width: 1500px;
+    justify-content: center;
+    display: flex;
+    justify-content: flex-end;
+    margin: 30px auto 50px auto;
+}
+
+.btn-veja-mais a{
+    padding: 15px 25px;
+    background-color: #ccc;
+    color: brown;
+    font-size: 30px;
+    text-decoration: none;
+    border-radius: 5px 10px 5px 10px;
+    border: solid 1px #333;
+    display: inline-block;
+    transition: 
+        transform 0.5s ease; 
+        box-shadow: 0.3s ease;
+        background-color: 0.3 ease;
+}
+
+.btn-veja-mais a:hover{
+    color:#ccc;
+    border: solid 1px #ffe603;
+    background-color: brown;
+    transform: translateY(-2px) scale(1.05); /* Pra cima, %5 maior */
+    box-shadow: 0 8px  20px rgba(51, 51, 51, 0.4); 
+}
+
